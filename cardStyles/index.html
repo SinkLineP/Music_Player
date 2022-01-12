@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 align="center">Music Gallery</h1>
+
+    <div id="blockOne" class="place">
+        <div class="place-btn">
+            <div class="close-btn" onclick=clickCloseBtn()>
+                <div class="line-btn line-btn-one"></div>
+                <div class="line-btn line-btn-two"></div>
+            </div>
+        </div>
+
+        <div class="card-box">
+            <div id="cardOne" class="card">
+                <div class="content">
+                    <p class="card-desc">Faded</p>
+                    <p class="card-down-text">Alan Walker</p>
+                    <audio id="music" controls>
+                        <source src="./audio/alan-walker-faded.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <button id="play-music-button" class="play-audio-btn">Play</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/sound_One.js"></script>
+</body>
+
+</html>
